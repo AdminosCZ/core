@@ -26,3 +26,10 @@ The service provider is auto-discovered via Laravel's `extra.laravel.providers` 
 ## License
 
 Proprietary. See [LICENSE](LICENSE). Copyright © Rekoj.cz.
+
+## Issues and pull requests
+
+This repository is a **read-only mirror** generated from the [`AdminosCZ/adminos`](https://github.com/AdminosCZ/adminos) monorepo by a subtree-split GitHub Action. Pull requests and issues opened here cannot be merged. File them against the monorepo instead:
+
+- Issues: https://github.com/AdminosCZ/adminos/issues
+- Pull requests: https://github.com/AdminosCZ/adminos/pulls
