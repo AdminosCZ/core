@@ -1,0 +1,43 @@
+{
+    "$schema": "https://getcomposer.org/schema.json",
+    "name": "adminos/core",
+    "description": "Core framework for ADMINOS — a Laravel + Filament admin platform with plugin architecture.",
+    "type": "library",
+    "license": "proprietary",
+    "homepage": "https://adminos.cz",
+    "support": {
+        "issues": "https://github.com/AdminosCZ/adminos/issues",
+        "source": "https://github.com/AdminosCZ/core"
+    },
+    "require": {
+        "php": "^8.3",
+        "illuminate/contracts": "^13.0",
+        "illuminate/support": "^13.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^11.0",
+        "phpunit/phpunit": "^12.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Adminos\\Core\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Adminos\\Core\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Adminos\\Core\\AdminosCoreServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
